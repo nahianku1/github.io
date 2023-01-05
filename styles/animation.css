@@ -1,0 +1,39 @@
+/* Animation CSS */
+@keyframes animate {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  @keyframes translate {
+    100% {
+      transform: translateY(-157px);
+    }
+  }
+  
+  @keyframes cursor {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes imageanim {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }

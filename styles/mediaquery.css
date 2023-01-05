@@ -1,0 +1,135 @@
+/* Media Query */
+@media screen and (max-width: 1319px) {
+  .text-anim {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 968px) {
+  .left-hero {
+    width: 500px !important;
+    font-size: 25px !important;
+  }
+  .portfolio-cards,
+  .skills-cards {
+    justify-content: center;
+  }
+  #portfolio .wrapper,
+  #skills .wrapper,
+  #social .wrapper,
+  #contact .wrapper {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 806px) {
+  .left-hero {
+    width: 400px !important;
+    font-size: 25px !important;
+  }
+  .hirebtn,
+  .resumebtn {
+    width: 100px !important;
+    font-size: 15px !important;
+  }
+  .img-div {
+    width: 250px !important;
+    height: 400px !important;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .left-hero {
+    width: 350px !important;
+    font-size: 20px !important;
+  }
+  .img-div {
+    width: 300px !important;
+    height: 400px !important;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .left-hero {
+    width: 300px !important;
+    font-size: 20px !important;
+  }
+  .img-div {
+    width: 300px !important;
+    height: 400px !important;
+  }
+  .contact-left,
+  .contact-right {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 633px) {
+  .nav .menu a {
+    display: none !important;
+  }
+  .nav .menu a:last-child {
+    display: inline !important;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .left-hero {
+    width: 250px !important;
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 571px) {
+  .hero {
+    flex-direction: column-reverse !important;
+    align-items: center !important;
+  }
+  .img-div {
+    width: 400px !important;
+    height: 450px !important;
+  }
+  .left-hero {
+    width: 400px !important;
+    font-size: 25px !important;
+  }
+  .contact-left,
+  .contact-right {
+    width: 350px !important;
+    font-size: 14px !important;
+  }
+
+  .contact-left .email p,
+  .facebook p a,
+  .twitter p a,
+  .address p {
+    font-size: 18px !important;
+  }
+
+  .contact-right p:nth-child(1) input,
+  .contact-right p:nth-child(2) input,
+  .contact-right p:nth-child(3) textarea {
+    width: 250px !important;
+  }
+}
+@media screen and (max-width: 470px) {
+  .img-div {
+    width: 300px !important;
+    height: 350px !important;
+  }
+  .left-hero {
+    width: 300px !important;
+    font-size: 25px !important;
+  }
+  .hirebtn,
+  .resumebtn {
+    width: max-content !important;
+    padding: 15px !important;
+    font-size: 15px !important;
+    
+  }
+
+  #portfolio .wrapper .portfolio-line .line span,#skills .wrapper .skills-line .line span,#social .wrapper .social-line .line span,#contact .wrapper .contact-line .line span{
+    width: 150px !important;
+    font-size: 20px !important;
+  }
+}
